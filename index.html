@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Add the Play CDN script tag-->
+    <title>Signup page</title>
+    <style>
+      input:focus {
+        outline: none !important;
+      }
+    </style>
+  </head>
+  <body class="bg-[black]"> 
+    <div class="flex flex-col w-[600px] h-[500px] bg-[whitesmoke] mx-auto my-[80px] rounded-[25px] mx-auto my-[50px] bg-[black]">
+      <div class="flex justify-center font-medium text-[20px] mt-[15px]">Ready to create an account for free?</div>
+      <div class="flex justify-center text-[13px] mt-[5px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </div>
+      <div class="flex justify-center text-[13px] mt-[5px]">tempor incididunt ut labore</div>
+      <div class="flex flex-col mx-[auto] justify-center items-center mt-[15px] w-[85%] h-[75%] bg-[#B6CCD1] rounded-[25px]">
+        <div class="font-bold text-[16px] mb-[10px] ml-[-150px]">Sign up for free acount</div>
+        <div class="flex flex-row ml-[20px]">
+          <input type="text" name="firstname" id="fname" placeholder="First name" class="w-[42%] h-[30px] mt-[5px] rounded-[7px] pl-[10px] text-[13px]">
+          <input type="text" name="lasttname" id="fname" placeholder="Last name" class="w-[42%] h-[30px] mt-[5px] ml-[35px] float-right rounded-[7px] pl-[10px] text-[13px]">
+        </div>
+        <input type="number" placeholder="Student id" class="w-[65%] h-[30px] mt-[20px] rounded-[7px] pl-[10px] text-[13px] -">
+        <input type="email" placeholder="Email address" class="w-[65%] h-[30px] mt-[20px] rounded-[7px] pl-[10px] text-[13px]">
+        <input type="password" placeholder="Create password" class="w-[65%] h-[30px] mt-[20px] rounded-[7px] pl-[10px] text-[13px]">
+        <a href="./pages/Login.html" class="bg-[#18A0FB] p-[2px] rounded-[5px] mt-[30px] w-[65%] h-[30px] text-[#fff] text-center hover:bg-sky-600 hover:h-[8.5%]">
+          <button >Sign up</button>
+        </a>
+        <div class="font-medium text-[#696969] text-[9px] mt-[15px] hover:underline underline-offset-1">Already have an account?</div>
+        <a href="./pages/Login.html">
+          <div class="font-medium text-[#0D6AD8] text-[11px] mt-[15px] hover:text-[12px]">Login</div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
